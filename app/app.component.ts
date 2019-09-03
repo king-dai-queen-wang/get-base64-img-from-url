@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   base64Image: any;
 
   ngOnInit() {
-    let imageUrl = 'https://i.imgur.com/hdcbPeO.jpg';
+    let imageUrl = 'https://raw.githubusercontent.com/king-dai-queen-wang/js-slider-sad3kj/master/assets/img/2.jpg';
 
     this.getBase64ImageFromURL(imageUrl).subscribe(base64data => {
       console.log(base64data);
